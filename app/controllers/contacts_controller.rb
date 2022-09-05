@@ -18,6 +18,11 @@ class ContactsController < ApplicationController
     end
   end
 
+  def download_pdf
+    send_file "#{Rails.root}/public/docs/laura_brooks_resume.pdf", type: "application/pdf", x_sendfile: true
+  end
+
+
   private
 
  def contact_params

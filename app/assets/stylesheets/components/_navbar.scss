@@ -86,6 +86,15 @@ dl,ol,ul {
   font-size: 20px;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
 
 @media(max-width:768px) {
   .hamburger {
