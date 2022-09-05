@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  # before_action :set_contact
+
   def home
   end
 
@@ -20,11 +20,7 @@ class ContactsController < ApplicationController
 
   private
 
-  # def set_contact
-  #   @contact = Contact.find(params[:contact])
-  # end
-
-  def contact_params
+ def contact_params
     params.require(:contact).permit(:contact)
   end
 end

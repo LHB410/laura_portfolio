@@ -2,7 +2,7 @@ nav {
   top: 0%;
   width: 100%;
   position: fixed;
-  background-color: #000000;
+  background-color: #02171b;
   border-bottom: 1px solid #f8f8f8;
   z-index: 1;
   float: right;
@@ -20,6 +20,7 @@ nav {
   justify-content: space-between, right;
   align-items: center;
 }
+
 
 .nav-menu {
   display: flex;
@@ -119,6 +120,14 @@ dl,ol,ul {
 
   .nav-menu.active {
     left: 0;
+  }
+}
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
   }
 }
 

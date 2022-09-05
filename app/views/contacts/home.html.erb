@@ -1,27 +1,37 @@
 <%= render 'componants/navbar' %>
-<div id="one" class="default first item fadeEl">
-  <h1>About</h1>
+
+<div class="salmon">
+  <div id="one" class="default first item fadeEl">
+    <h1 id="title">About</h1>
+    <%= render 'componants/about' %>
+  </div>
+</div>
 
 
-
-
-
+<div class="green">
+  <div id="two" class="item fadeEl">
+    <h1 id="title">Projects</h1>
+    <%= render 'componants/projects' %>
+  </div>
+</div>
 
 
 </div>
-<div id="two" class="item fadeEl">
-  <h1>Projects</h1>
-  <%= render 'componants/projects' %>
 
 
-
-
-
-
+<div class="gold">
+  <div id="three" class="item fadeEl">
+    <%= render 'new' %>
+  </div>
 </div>
-<div id="three" class="item fadeEl">
-  <%= render 'new' %>
+
+<div class="purple">
+  <%= render 'componants/footer' %>
 </div>
+
+
+
+
 
 
 
