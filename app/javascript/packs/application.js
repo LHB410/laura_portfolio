@@ -19,6 +19,11 @@ window.$ = window.jQuery = require("jquery");
 
 FontAwesome.config.mutateApproach = 'sync'
 
-  //= require fontawesome/all
+require("jquery")
+
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
 
 

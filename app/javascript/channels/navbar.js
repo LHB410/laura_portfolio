@@ -13,3 +13,4 @@ window.onload = function () {
   }));
 };
 
+Console.log("hello from navbar");

@@ -1,7 +1,7 @@
 .side-style {
   width: 40px;
   position: fixed;
-  bottom: 200px;
+  bottom: 250px;
   left: 40px;
   right: auto;
   z-index: 10;
@@ -29,4 +29,12 @@
 
 #social-icon:hover {
   color: #67387cdf;
+}
+
+@media only screen and (max-width: 600px) {
+  .side-style {
+    width: 12px;
+    bottom: 300px;
+
+  }
 }

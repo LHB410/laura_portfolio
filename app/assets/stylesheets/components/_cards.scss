@@ -3,7 +3,11 @@
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 0rem;
+  padding: 1rem 3rem;
+}
+
+p {
+  padding-right: 8px;
 }
 
 .green {
@@ -12,6 +16,16 @@
   background-position: center;
   padding-bottom: 1rem;
   border-top: 1px solid black;
+}
+
+.splitter {
+  border-top: solid 1px grey;
+  margin-top: 3rem;
+  opacity: 30%;
+}
+
+#name {
+  font-size: 68px;
 }
 
 
@@ -31,6 +45,12 @@
 
 .title-shadow {
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-top: 6rem;
+  margin-left: 4px;
 }
 
 .gold {

@@ -1,4 +1,4 @@
-$('#sec-1').addClass("active");
+// $('#sec-1').addClass("active");
 
 //Smooth scrolling
 $("#sec-1").click(function () {
@@ -17,7 +17,7 @@ $("#sec-2").click(function () {
 
 $("#sec-3").click(function () {
   $(' html,body').animate({
-    scrollTop: $("#three").offset().top - 112
+    scrollTop: $("#three").offset().top - 160
   }, 1000);
   return false;
 });
