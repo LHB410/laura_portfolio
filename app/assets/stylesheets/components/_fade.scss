@@ -4,6 +4,29 @@
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
+
+.fadeEl-second {
+  animation: fadein 3s 1.0s backwards;
+  -moz-animation: fadein 3s 1.0s backwards; /* Firefox */
+  -webkit-animation: fadein 3s 1.0s backwards; /* Safari and Chrome */
+  -o-animation: fadein 3s 1.0s backwards; /* Opera */
+}
+
+.fadeEl-third {
+    animation: fadein 3s 1.5s backwards;
+    -moz-animation: fadein 3s 1.5s backwards; /* Firefox */
+    -webkit-animation: fadein 3s 1.5s backwards; /* Safari and Chrome */
+    -o-animation: fadein 3s 1.5s backwards; /* Opera */
+}
+
+.fadeEl-fourth {
+    animation: fadein 3s 2s backwards;
+    -moz-animation: fadein 3s 2s backwards; /* Firefox */
+    -webkit-animation: fadein 3s 2s backwards; /* Safari and Chrome */
+    -o-animation: fadein 3s 2s backwards; /* Opera */
+}
+
+
 @keyframes fadein {
     from {
         opacity:0;

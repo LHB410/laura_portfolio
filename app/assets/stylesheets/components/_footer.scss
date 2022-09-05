@@ -8,38 +8,8 @@ footer {
   height: fit-content;
 }
 
-.footer ul{
-  list-style: none;
-  text-align: center;
-  display: inline-block;
-  float: none;
-  margin-top: -1rem;
-  padding-left: 0rem;
-}
-
-footer li {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  display: inline-block;
-  list-style-type: none;
-  line-height: 9px;
-  font-size: 24px;
-}
 
 .footer p{
   margin-top: 1rem;
 }
 
-.footer ul li a:hover {
-  padding: 12px;
-  color: rgb(235, 197, 105);
-}
-
-.footer ul li a {
-  margin: 8px;
-  padding: 10px;
-  color: rgb(27, 26, 26);
-  font-size: 1.2em;
-  text-decoration: none;
-  transition: all 0.3s ease-out;
-}

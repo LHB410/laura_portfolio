@@ -1,0 +1,32 @@
+.side-style {
+  width: 40px;
+  position: fixed;
+  bottom: 200px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: black
+}
+
+.side-list-style {
+  display: flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+
+#social-icon {
+  color: #bf92d3df;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: color 0.3s ease;
+}
+
+#social-icon:hover {
+  color: #67387cdf;
+}

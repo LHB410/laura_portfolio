@@ -1,15 +1,26 @@
 <%= render 'componants/navbar' %>
+<div class="side-style">
+  <ul class=side-list-style>
+    <li><a  href="https://www.linkedin.com/in/laura-h-brooks"><i id="social-icon" class="fab fa-linkedin"></i></a></li>
+
+    <li><a href="https://twitter.com/LauraBrooks0"><i id="social-icon" class="fab fa-twitter-square"></i></a></li>
+
+    <li><a href="https://www.github.com/LHB410"><i id="social-icon" class="fa-brands fa-github"></i></a></li>
+  </ul>
+</div>
 
 <div class="salmon">
-  <div id="one" class="default first item fadeEl">
+  <div id="one" class="default first item fadeEl-second">
     <h1 id="title">About</h1>
     <%= render 'componants/about' %>
   </div>
 </div>
 
 
+
+
 <div class="green">
-  <div id="two" class="item fadeEl">
+  <div id="two" class="item fadeEl-third">
     <h1 id="title">Projects</h1>
     <%= render 'componants/projects' %>
   </div>
@@ -20,12 +31,12 @@
 
 
 <div class="gold">
-  <div id="three" class="item fadeEl">
+  <div id="three" class="item fadeEl-fourth">
     <%= render 'new' %>
   </div>
 </div>
 
-<div class="purple">
+<div class="purple fadeEl">
   <%= render 'componants/footer' %>
 </div>
 

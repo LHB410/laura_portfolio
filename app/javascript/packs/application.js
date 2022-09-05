@@ -17,4 +17,8 @@ import "bootstrap"
 
 window.$ = window.jQuery = require("jquery");
 
+FontAwesome.config.mutateApproach = 'sync'
+
+  //= require fontawesome/all
+
 

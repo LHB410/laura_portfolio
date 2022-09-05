@@ -3,7 +3,6 @@ nav {
   width: 100%;
   position: fixed;
   background-color: #02171b;
-  border-bottom: 1px solid #f8f8f8;
   z-index: 1;
   float: right;
 }
@@ -62,8 +61,9 @@ dl,ol,ul {
 }
 
 .navbar ul li a:hover {
-  padding: 12px;
-  color: rgb(160, 34, 108);
+  box-shadow: inset 100px 0 0 0 rgb(235, 205,197);
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .navbar ul li a {
