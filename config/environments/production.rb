@@ -97,7 +97,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.smtp_settings = {
+  ActionMailer::Base.smtp_settings = {
   :port           => ENV['MAILGUN_SMTP_PORT'],
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
@@ -105,8 +105,7 @@ Rails.application.configure do
   :domain         => 'laura-brooks-portfolio.heroku.com', # UPDATE THIS VALUE WITH YOUR OWN APP
   :authentication => :plain,
   }
-  ActionMailer::Base.delivery_method = :smtp
-
+  config.action_mailer.default_url_options = { host: "laura-brooks-portfolio.heroku.com" }
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
   # middleware. The `delay` is used to determine how long to wait after a write
