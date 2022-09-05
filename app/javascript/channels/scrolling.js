@@ -3,7 +3,7 @@ $('#sec-1').addClass("active");
 //Smooth scrolling
 $("#sec-1").click(function () {
   $('html, body').animate({
-    scrollTop: $("#one").offset().top - 66
+    scrollTop: $("#one").offset().top - 90
   }, 1000);
   return false;
 });
