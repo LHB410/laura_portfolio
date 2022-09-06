@@ -19,6 +19,7 @@ body {
   margin: 0;
   display: grid;
   font-size: 100%;
+  overflow-x: hidden;
 }
 
 .d-flex {
@@ -34,4 +35,10 @@ col-12 {
   display: grid;
   justify-content: center;
   max-width: max-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    --bs-gutter-x: -1.5rem;
+  }
 }
