@@ -1,5 +1,11 @@
 #form {
   display: flex;
   justify-content: left;
-  padding-left: 1.5rem;
+
+}
+
+@media only screen and (min-width: 992px) {
+  #form {
+    padding-left: 7rem;
+  }
 }

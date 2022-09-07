@@ -1,14 +1,14 @@
 <%= render 'componants/navbar' %>
 <div class="side-style">
   <ul class=side-list-style>
-    <li><a  href="https://www.linkedin.com/in/laura-h-brooks"><i id="social-icon" class="fab fa-linkedin fadeEl-second"></i></a></li>
+    <li><a  href="https://www.linkedin.com/in/laura-h-brooks" target="_blank"><i id="social-icon" class="fab fa-linkedin fadeEl-second"></i></a></li>
 
-    <li><a href="https://twitter.com/LauraBrooks0"><i id="social-icon" class="fab fa-twitter-square fadeEl-third"></i></a></li>
+    <li><a href="https://twitter.com/LauraBrooks0" target="_blank"><i id="social-icon" class="fab fa-twitter-square fadeEl-third"></i></a></li>
 
-    <li><a href="https://www.github.com/LHB410"><i id="social-icon" class="fa-brands fa-github fadeEl-fourth"></i></a></li>
+    <li><a href="https://www.github.com/LHB410" target="_blank"><i id="social-icon" class="fa-brands fa-github fadeEl-fourth"></i></a></li>
   </ul>
 </div>
-
+<%# ABOUT %>
 <div class="salmon">
   <div id="one" class="default first item fadeEl-second">
     <%= render 'componants/about' %>
@@ -17,7 +17,7 @@
 
 
 
-
+<%# PROJECTS %>
 <div class="green">
   <div id="two" class="item fadeEl-third">
     <%= render 'componants/projects' %>
@@ -27,13 +27,14 @@
 
 </div>
 
-
+<%# CONTACT FORM %>
 <div class="gold">
   <div id="three" class="item">
     <%= render 'new' %>
   </div>
 </div>
 
+<%# FOOTER %>
 <div class="purple fadeEl">
   <%= render 'componants/footer' %>
 </div>
